@@ -1,0 +1,30 @@
+#sign-in-page{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    
+}
+#left{
+    width: 65%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#left > button{
+    margin-top: 16px;
+    font-size: 24px;
+}
+#right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#welcome{
+    font-size: 64px;
+    margin-bottom: 16px;
+}
+#title{
+    font-size: 50px;
+}
