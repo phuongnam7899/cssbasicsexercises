@@ -1,0 +1,72 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    width:100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.post{
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+
+    box-shadow: 0px 0px 3px rgb(161, 161, 161);
+    box-shadow: 0px 0px 3px rgb(192, 191, 191);
+    margin: 16px;
+    padding: 16px 0px;
+}
+.title{
+    display: flex;
+    padding: 0px 8px;
+}
+.description{
+    padding: 0px 8px;
+    margin-top: 8px;
+    font-size: 18px;
+}
+.title > img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+.title > i{
+    margin-left: auto;
+    line-height: 50px;
+    font-size: 26px;
+    color: rgb(39, 38, 38)
+}
+.title > i:hover{
+    color: rgb(212, 81, 81);
+    cursor: pointer;
+}
+.title > .name {
+    height: 50px;
+    line-height: 50px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 8px;
+    color: rgb(11, 30, 117)
+}
+.title > .name:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.post > img {
+    width: inherit;
+    margin: 16px 0px;
+}
+.like-share-cmt{
+    display: flex;
+    justify-content: space-around
+}
+.like-share-cmt > div:hover > i ,.like-share-cmt > div:hover > span {
+    color: rgb(187, 93, 93);
+    cursor: pointer;
+}
+.like-share-cmt{
+    font-size: 1.2em;
+}

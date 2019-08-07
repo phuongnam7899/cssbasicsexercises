@@ -24,9 +24,11 @@ body{
     height: 50px;
     border-radius: 24px;
     background: orange;
+    border-width: 1px;
 }
 #left > button:hover, #right > button:hover{
-    background: rgb(248, 174, 38);
+    background: rgb(235, 173, 60);
+    cursor: pointer;
 }
 #right{
     width: 30vw;
