@@ -27,6 +27,7 @@ body{
     position: relative;
     width: 100%;
     height:100%;
+    object-fit: contain;
 }
 .view h2 {
     text-transform: uppercase;
@@ -98,7 +99,4 @@ body{
 }
 .view-first:hover p {
     transition-delay: 0.1s;
-}
-.view-first:hover a.info {
-    transition-delay: 0.2s;
 }
