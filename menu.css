@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+#heading{
+    width: 100vw;
+    height:100px;
+    line-height: 100px;
+    font-size: 80px;
+    background:#e9b4b4;
+    font-weight: 600;
+    text-align:center;
+    font-family: 'Cabin Sketch', cursive;
+    color: white;
+    text-shadow:
+     -2px -2px 0 #000,  
+      2px -2px 0 #000,
+      -2px 2px 0 #000,
+       2px 2px 0 #000;
+}
+#cuisines{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background: rgb(247, 228, 228)
+}
+.kind {
+    display:flex;
+    flex-direction: column;
+    width:25vw;
+    margin : 24px 16px;
+}
+.kind-name{
+    font-size: 2.5em;
+    margin: 17px 0px;
+    line-height: 100%;
+    text-align: center;
+    color:#331303;
+}
+.kind-name > span{
+    font-family: 'Beth Ellen', cursive;
+}
+.dish{
+    display: flex;
+    font-size: 19px;
+    justify-content: space-between;
+    margin-bottom: 9px;
+}
+@media screen and (max-width:1024px){
+    .kind{
+        width:40%;
+        margin: 24px 0px;
+    }
+    .kind-name{
+        font-size: 2em;
+    }
+    .dish{
+        font-size:20px;
+    }
+    #heading{
+        font-size:80px;
+    }
+}
+@media screen and (max-width:414px){
+    .kind{
+        width:90%;
+        margin: 8px 0px;
+    }
+    .kind-name{
+        font-size: 2em;
+    }
+    .dish{
+        font-size:18px;
+    }
+    #heading{
+        font-size:56px;
+    }
+}
